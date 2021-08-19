@@ -3,5 +3,24 @@
  * Все паршалы подключаются сюда.
  */
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+// UTILS
+@import './utils/variables';
+@import './utils/mixin';
+@import './utils/mixin-font-decimal';
+@import './utils/visually-hidden';
+
+// BASE
+@import './base/common';
+@import './base/container';
+
+//COMPONENTS
+@import './components/burger-menu';
+@import './components/navigation';
+@import './components/title';
+@import './components/button';
+@import './components/backdrop';
+
+// LAYOUT
+// Cюди кожен учасник команди допише сам нові паршили имя_scss, або створить в цій папці ще папку і допише новий паршил, ок?
+@import './layout/header/header';
+@import './layout/footer/footer';
